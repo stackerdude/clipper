@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DD67CEAB34306AFFC6AEC0 /* Pods_clipperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9359861DD59743FC2B2165F /* Pods_clipperTests.framework */; };
+		80092AC81D3ABAF6732C54CE /* Pods_clipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3CF128B9B1379878611B4C /* Pods_clipper.framework */; };
+		CAAEAF2B58C5279F59EAFE6F /* Pods_clipperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E54A79B06775FFD4E41D0A /* Pods_clipperUITests.framework */; };
+		FDFEC42022B5DE65004646E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */; };
+		FDFEC42222B5DE65004646E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC42122B5DE65004646E0 /* ViewController.swift */; };
+		FDFEC42522B5DE65004646E0 /* clipper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC42322B5DE65004646E0 /* clipper.xcdatamodeld */; };
+		FDFEC42722B5DE67004646E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFEC42622B5DE67004646E0 /* Assets.xcassets */; };
+		FDFEC42A22B5DE67004646E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFEC42822B5DE67004646E0 /* Main.storyboard */; };
+		FDFEC43622B5DE67004646E0 /* clipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC43522B5DE67004646E0 /* clipperTests.swift */; };
+		FDFEC44122B5DE67004646E0 /* clipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC44022B5DE67004646E0 /* clipperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDFEC43222B5DE67004646E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDFEC41422B5DE65004646E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFEC41B22B5DE65004646E0;
+			remoteInfo = clipper;
+		};
+		FDFEC43D22B5DE67004646E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDFEC41422B5DE65004646E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFEC41B22B5DE65004646E0;
+			remoteInfo = clipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E54A79B06775FFD4E41D0A /* Pods_clipperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234607C182297592B4F2B03F /* Pods-clipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipper.debug.xcconfig"; path = "Target Support Files/Pods-clipper/Pods-clipper.debug.xcconfig"; sourceTree = "<group>"; };
+		3F3CF128B9B1379878611B4C /* Pods_clipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4530BE50B3808EAF0FEA8F /* Pods-clipperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperUITests.debug.xcconfig"; path = "Target Support Files/Pods-clipperUITests/Pods-clipperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		652CF4293A9E7CECD63EE8BD /* Pods-clipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipper.release.xcconfig"; path = "Target Support Files/Pods-clipper/Pods-clipper.release.xcconfig"; sourceTree = "<group>"; };
+		7E27DA96A368C0F49056C0E4 /* Pods-clipperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperTests.release.xcconfig"; path = "Target Support Files/Pods-clipperTests/Pods-clipperTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9359861DD59743FC2B2165F /* Pods_clipperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5EA6B26D7AE8784A9A9691 /* Pods-clipperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperUITests.release.xcconfig"; path = "Target Support Files/Pods-clipperUITests/Pods-clipperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAC6DBC39549524CA5DE170E /* Pods-clipperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperTests.debug.xcconfig"; path = "Target Support Files/Pods-clipperTests/Pods-clipperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB895B322B5E16800E8662A /* clipper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clipper-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDFEC41C22B5DE65004646E0 /* clipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDFEC42122B5DE65004646E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDFEC42422B5DE65004646E0 /* clipper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clipper.xcdatamodel; sourceTree = "<group>"; };
+		FDFEC42622B5DE67004646E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDFEC42922B5DE67004646E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDFEC42B22B5DE67004646E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFEC42C22B5DE67004646E0 /* clipper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clipper.entitlements; sourceTree = "<group>"; };
+		FDFEC43122B5DE67004646E0 /* clipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFEC43522B5DE67004646E0 /* clipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clipperTests.swift; sourceTree = "<group>"; };
+		FDFEC43722B5DE67004646E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFEC43C22B5DE67004646E0 /* clipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFEC44022B5DE67004646E0 /* clipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clipperUITests.swift; sourceTree = "<group>"; };
+		FDFEC44222B5DE67004646E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDFEC41922B5DE65004646E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80092AC81D3ABAF6732C54CE /* Pods_clipper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFEC42E22B5DE67004646E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DD67CEAB34306AFFC6AEC0 /* Pods_clipperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFEC43922B5DE67004646E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAEAF2B58C5279F59EAFE6F /* Pods_clipperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9917DFC9D85FFAB4D9F121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3CF128B9B1379878611B4C /* Pods_clipper.framework */,
+				B9359861DD59743FC2B2165F /* Pods_clipperTests.framework */,
+				01E54A79B06775FFD4E41D0A /* Pods_clipperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E987E9F149B5C451338D5164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234607C182297592B4F2B03F /* Pods-clipper.debug.xcconfig */,
+				652CF4293A9E7CECD63EE8BD /* Pods-clipper.release.xcconfig */,
+				EAC6DBC39549524CA5DE170E /* Pods-clipperTests.debug.xcconfig */,
+				7E27DA96A368C0F49056C0E4 /* Pods-clipperTests.release.xcconfig */,
+				4F4530BE50B3808EAF0FEA8F /* Pods-clipperUITests.debug.xcconfig */,
+				DB5EA6B26D7AE8784A9A9691 /* Pods-clipperUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDFEC41322B5DE65004646E0 = {
+			isa = PBXGroup;
+			children = (
+				FDFEC41E22B5DE65004646E0 /* clipper */,
+				FDFEC43422B5DE67004646E0 /* clipperTests */,
+				FDFEC43F22B5DE67004646E0 /* clipperUITests */,
+				FDFEC41D22B5DE65004646E0 /* Products */,
+				E987E9F149B5C451338D5164 /* Pods */,
+				7F9917DFC9D85FFAB4D9F121 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDFEC41D22B5DE65004646E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDFEC41C22B5DE65004646E0 /* clipper.app */,
+				FDFEC43122B5DE67004646E0 /* clipperTests.xctest */,
+				FDFEC43C22B5DE67004646E0 /* clipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDFEC41E22B5DE65004646E0 /* clipper */ = {
+			isa = PBXGroup;
+			children = (
+				FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */,
+				FDFEC42122B5DE65004646E0 /* ViewController.swift */,
+				FDFEC42622B5DE67004646E0 /* Assets.xcassets */,
+				FDFEC42822B5DE67004646E0 /* Main.storyboard */,
+				FDFEC42B22B5DE67004646E0 /* Info.plist */,
+				FDFEC42C22B5DE67004646E0 /* clipper.entitlements */,
+				FDFEC42322B5DE65004646E0 /* clipper.xcdatamodeld */,
+				FDB895B322B5E16800E8662A /* clipper-Bridging-Header.h */,
+			);
+			path = clipper;
+			sourceTree = "<group>";
+		};
+		FDFEC43422B5DE67004646E0 /* clipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDFEC43522B5DE67004646E0 /* clipperTests.swift */,
+				FDFEC43722B5DE67004646E0 /* Info.plist */,
+			);
+			path = clipperTests;
+			sourceTree = "<group>";
+		};
+		FDFEC43F22B5DE67004646E0 /* clipperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDFEC44022B5DE67004646E0 /* clipperUITests.swift */,
+				FDFEC44222B5DE67004646E0 /* Info.plist */,
+			);
+			path = clipperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFEC41B22B5DE65004646E0 /* clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFEC44522B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipper" */;
+			buildPhases = (
+				E8B085FD3DB9081207BE8EA0 /* [CP] Check Pods Manifest.lock */,
+				FDFEC41822B5DE65004646E0 /* Sources */,
+				FDFEC41922B5DE65004646E0 /* Frameworks */,
+				FDFEC41A22B5DE65004646E0 /* Resources */,
+				3BDD09CAD9C6A6614375F9A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clipper;
+			productName = clipper;
+			productReference = FDFEC41C22B5DE65004646E0 /* clipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDFEC43022B5DE67004646E0 /* clipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFEC44822B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipperTests" */;
+			buildPhases = (
+				3F68881EA7E9D454263329F6 /* [CP] Check Pods Manifest.lock */,
+				FDFEC42D22B5DE67004646E0 /* Sources */,
+				FDFEC42E22B5DE67004646E0 /* Frameworks */,
+				FDFEC42F22B5DE67004646E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFEC43322B5DE67004646E0 /* PBXTargetDependency */,
+			);
+			name = clipperTests;
+			productName = clipperTests;
+			productReference = FDFEC43122B5DE67004646E0 /* clipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDFEC43B22B5DE67004646E0 /* clipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFEC44B22B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipperUITests" */;
+			buildPhases = (
+				23742BBBC5320F424DA7AE76 /* [CP] Check Pods Manifest.lock */,
+				FDFEC43822B5DE67004646E0 /* Sources */,
+				FDFEC43922B5DE67004646E0 /* Frameworks */,
+				FDFEC43A22B5DE67004646E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFEC43E22B5DE67004646E0 /* PBXTargetDependency */,
+			);
+			name = clipperUITests;
+			productName = clipperUITests;
+			productReference = FDFEC43C22B5DE67004646E0 /* clipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDFEC41422B5DE65004646E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Wayne Irwin";
+				TargetAttributes = {
+					FDFEC41B22B5DE65004646E0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FDFEC43022B5DE67004646E0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FDFEC41B22B5DE65004646E0;
+					};
+					FDFEC43B22B5DE67004646E0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FDFEC41B22B5DE65004646E0;
+					};
+				};
+			};
+			buildConfigurationList = FDFEC41722B5DE65004646E0 /* Build configuration list for PBXProject "clipper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDFEC41322B5DE65004646E0;
+			productRefGroup = FDFEC41D22B5DE65004646E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFEC41B22B5DE65004646E0 /* clipper */,
+				FDFEC43022B5DE67004646E0 /* clipperTests */,
+				FDFEC43B22B5DE67004646E0 /* clipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDFEC41A22B5DE65004646E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFEC42722B5DE67004646E0 /* Assets.xcassets in Resources */,
+				FDFEC42A22B5DE67004646E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFEC42F22B5DE67004646E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFEC43A22B5DE67004646E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23742BBBC5320F424DA7AE76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clipperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDD09CAD9C6A6614375F9A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clipper/Pods-clipper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clipper/Pods-clipper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clipper/Pods-clipper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F68881EA7E9D454263329F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clipperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B085FD3DB9081207BE8EA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clipper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDFEC41822B5DE65004646E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFEC42222B5DE65004646E0 /* ViewController.swift in Sources */,
+				FDFEC42522B5DE65004646E0 /* clipper.xcdatamodeld in Sources */,
+				FDFEC42022B5DE65004646E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFEC42D22B5DE67004646E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFEC43622B5DE67004646E0 /* clipperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFEC43822B5DE67004646E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFEC44122B5DE67004646E0 /* clipperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDFEC43322B5DE67004646E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDFEC41B22B5DE65004646E0 /* clipper */;
+			targetProxy = FDFEC43222B5DE67004646E0 /* PBXContainerItemProxy */;
+		};
+		FDFEC43E22B5DE67004646E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDFEC41B22B5DE65004646E0 /* clipper */;
+			targetProxy = FDFEC43D22B5DE67004646E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDFEC42822B5DE67004646E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFEC42922B5DE67004646E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDFEC44322B5DE67004646E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDFEC44422B5DE67004646E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FDFEC44622B5DE67004646E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234607C182297592B4F2B03F /* Pods-clipper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = clipper/clipper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clipper.clipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "clipper/clipper-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDFEC44722B5DE67004646E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652CF4293A9E7CECD63EE8BD /* Pods-clipper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = clipper/clipper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clipper.clipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "clipper/clipper-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FDFEC44922B5DE67004646E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC6DBC39549524CA5DE170E /* Pods-clipperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clipperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clipper.clipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clipper.app/Contents/MacOS/clipper";
+			};
+			name = Debug;
+		};
+		FDFEC44A22B5DE67004646E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E27DA96A368C0F49056C0E4 /* Pods-clipperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clipperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clipper.clipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clipper.app/Contents/MacOS/clipper";
+			};
+			name = Release;
+		};
+		FDFEC44C22B5DE67004646E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4530BE50B3808EAF0FEA8F /* Pods-clipperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clipper.clipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = clipper;
+			};
+			name = Debug;
+		};
+		FDFEC44D22B5DE67004646E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5EA6B26D7AE8784A9A9691 /* Pods-clipperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clipper.clipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = clipper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDFEC41722B5DE65004646E0 /* Build configuration list for PBXProject "clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFEC44322B5DE67004646E0 /* Debug */,
+				FDFEC44422B5DE67004646E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFEC44522B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFEC44622B5DE67004646E0 /* Debug */,
+				FDFEC44722B5DE67004646E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFEC44822B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFEC44922B5DE67004646E0 /* Debug */,
+				FDFEC44A22B5DE67004646E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFEC44B22B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFEC44C22B5DE67004646E0 /* Debug */,
+				FDFEC44D22B5DE67004646E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDFEC42322B5DE65004646E0 /* clipper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDFEC42422B5DE65004646E0 /* clipper.xcdatamodel */,
+			);
+			currentVersion = FDFEC42422B5DE65004646E0 /* clipper.xcdatamodel */;
+			path = clipper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDFEC41422B5DE65004646E0 /* Project object */;
+}
