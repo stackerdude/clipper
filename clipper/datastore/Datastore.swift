@@ -9,11 +9,18 @@
 import Foundation
 
 
-class Datastore {
+class Datastore: NSObject{
     static let shared = Datastore()
+    var data: [String] = []
     
-    init(){}
+    func add(value:String){
+        data.insert(value, at: 0)
+    }
     
+    func numOfItems() -> Int{
+        return data.count
+    }
 }
+
 
 
