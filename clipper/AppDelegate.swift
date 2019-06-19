@@ -10,12 +10,52 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    var datastore: Datastore!
+    var pasteboard: NSPasteboard!
+    var eventListner: EventListner!
+    let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.squareLength)
+    
+    var viewController:MainViewContoller!
+    var window:NSWindow!
+
 
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        // Create Event Listner
+        self.datastore = Datastore.shared
+        self.pasteboard = NSPasteboard.general
+        self.eventListner = EventListner(datastore: self.datastore, pasteboard: self.pasteboard)
+        
+        if let button = statusItem.button {
+            button.image = NSImage(named: NSImage.Name("scissors"))
+            
+        }
+        constructMenu()
+        self.viewController = NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: "mainVC") as? MainViewContoller
+        self.viewController._datastore = self.datastore
+        print("VC good")
+        
+        window = NSWindow.init(contentViewController: self.viewController)
+        print("here")
+        window.makeKeyAndOrderFront(nil)
+
     }
+    
+    func constructMenu() {
+        let menu = NSMenu()
+        menu.addItem(NSMenuItem.separator())
+        menu.addItem(NSMenuItem(title: "Show", action: #selector(pressedShow), keyEquivalent: "w"))
+        menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+        
+        statusItem.menu = menu
+    }
+    
+    @objc func pressedShow(_ sender: Any?) {
+        print("Pressed Show")
+    }
+    
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application

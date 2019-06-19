@@ -15,6 +15,7 @@
 		FD95457322B5EEE50058067F /* EventListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457222B5EEE50058067F /* EventListner.swift */; };
 		FD95457722B6610F0058067F /* eventListnerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457622B6610F0058067F /* eventListnerTest.swift */; };
 		FD95457A22B669F20058067F /* PasteboardDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457922B669F20058067F /* PasteboardDataSourceProtocol.swift */; };
+		FDAB4C2C22B8F7C40073F448 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB4C2B22B8F7C40073F448 /* MainViewController.swift */; };
 		FDFEC42022B5DE65004646E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */; };
 		FDFEC42222B5DE65004646E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC42122B5DE65004646E0 /* ViewController.swift */; };
 		FDFEC42522B5DE65004646E0 /* clipper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC42322B5DE65004646E0 /* clipper.xcdatamodeld */; };
@@ -56,6 +57,7 @@
 		FD95457222B5EEE50058067F /* EventListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListner.swift; sourceTree = "<group>"; };
 		FD95457622B6610F0058067F /* eventListnerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventListnerTest.swift; sourceTree = "<group>"; };
 		FD95457922B669F20058067F /* PasteboardDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardDataSourceProtocol.swift; sourceTree = "<group>"; };
+		FDAB4C2B22B8F7C40073F448 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FDB895B322B5E16800E8662A /* clipper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clipper-Bridging-Header.h"; sourceTree = "<group>"; };
 		FDFEC41C22B5DE65004646E0 /* clipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				FD95456F22B5EA180058067F /* datastore */,
 				FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */,
 				FDFEC42122B5DE65004646E0 /* ViewController.swift */,
+				FDAB4C2B22B8F7C40073F448 /* MainViewController.swift */,
 				FDFEC42622B5DE67004646E0 /* Assets.xcassets */,
 				FDFEC42822B5DE67004646E0 /* Main.storyboard */,
 				FDFEC42B22B5DE67004646E0 /* Info.plist */,
@@ -420,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAB4C2C22B8F7C40073F448 /* MainViewController.swift in Sources */,
 				FDFEC42222B5DE65004646E0 /* ViewController.swift in Sources */,
 				FD95457A22B669F20058067F /* PasteboardDataSourceProtocol.swift in Sources */,
 				FD95457322B5EEE50058067F /* EventListner.swift in Sources */,

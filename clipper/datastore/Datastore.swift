@@ -15,11 +15,16 @@ class Datastore: NSObject{
     
     func add(value:String){
         data.insert(value, at: 0)
+        NotificationCenter.default.post(name: .newDataAdded, object: nil)
+
     }
     
     func numOfItems() -> Int{
         return data.count
     }
+}
+extension Notification.Name {
+    static let newDataAdded = Notification.Name("newDataAdded")
 }
 
 
