@@ -35,10 +35,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         constructMenu()
         self.viewController = NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: "mainVC") as? MainViewContoller
         self.viewController._datastore = self.datastore
-        print("VC good")
-        
         window = NSWindow.init(contentViewController: self.viewController)
-        print("here")
+        window.title = "clipper"
         window.makeKeyAndOrderFront(nil)
 
     }

@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Cocoa
+import MASShortcut
 
 
 class EventListner: NSObject {
@@ -20,7 +22,16 @@ class EventListner: NSObject {
         self._pasteboard  = pasteboard
         super.init()
         self.setPasteBoardTimer()
+        self.setGlobalHotkey()
 
+    }
+    
+    func setGlobalHotkey(){
+        let shortcut = MASShortcut.init(keyCode: UInt(kVK_ANSI_K), modifierFlags: UInt(NSEvent.ModifierFlags.command.rawValue + NSEvent.ModifierFlags.shift.rawValue))
+        
+        MASShortcutMonitor.shared().register(shortcut, withAction: {
+            NotificationCenter.default.post(name: .showMainVC, object: nil)
+        })
     }
     
     func setPasteBoardTimer(){
@@ -39,4 +50,10 @@ class EventListner: NSObject {
         self._datastore.add(value: item)
         
     }
+    
 }
+extension Notification.Name {
+    static let showMainVC = Notification.Name("showMainVC")
+}
+
+

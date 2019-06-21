@@ -38,9 +38,6 @@ class eventListnerTest: XCTestCase {
         })
         expectation(for: predicate, evaluatedWith: datastore, handler: nil)
         waitForExpectations(timeout: 1, handler: nil)
-
-
     }
-
-
+    
 }

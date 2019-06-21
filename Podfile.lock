@@ -1,16 +1,20 @@
 PODS:
+  - DateToolsSwift (4.0.0)
   - MASShortcut (2.3.6)
 
 DEPENDENCIES:
+  - DateToolsSwift
   - MASShortcut
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DateToolsSwift
     - MASShortcut
 
 SPEC CHECKSUMS:
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
   MASShortcut: 9c215e8a8a78f3d01ce56da48e2730ab66b538fa
 
-PODFILE CHECKSUM: 8cc14e43278190092526a993aa75c633c783df93
+PODFILE CHECKSUM: 6860b0a64141a539e394408ecffeea06f1062945
 
 COCOAPODS: 1.7.1

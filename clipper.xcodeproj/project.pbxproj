@@ -10,6 +10,7 @@
 		68DD67CEAB34306AFFC6AEC0 /* Pods_clipperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9359861DD59743FC2B2165F /* Pods_clipperTests.framework */; };
 		80092AC81D3ABAF6732C54CE /* Pods_clipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3CF128B9B1379878611B4C /* Pods_clipper.framework */; };
 		CAAEAF2B58C5279F59EAFE6F /* Pods_clipperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E54A79B06775FFD4E41D0A /* Pods_clipperUITests.framework */; };
+		FD1C217822BB8D1F00BFB381 /* CopiedTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */; };
 		FD95456C22B5E9620058067F /* datastoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95456B22B5E9620058067F /* datastoreTest.swift */; };
 		FD95457122B5EA2A0058067F /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457022B5EA2A0058067F /* Datastore.swift */; };
 		FD95457322B5EEE50058067F /* EventListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457222B5EEE50058067F /* EventListner.swift */; };
@@ -17,7 +18,6 @@
 		FD95457A22B669F20058067F /* PasteboardDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457922B669F20058067F /* PasteboardDataSourceProtocol.swift */; };
 		FDAB4C2C22B8F7C40073F448 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB4C2B22B8F7C40073F448 /* MainViewController.swift */; };
 		FDFEC42022B5DE65004646E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */; };
-		FDFEC42222B5DE65004646E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC42122B5DE65004646E0 /* ViewController.swift */; };
 		FDFEC42522B5DE65004646E0 /* clipper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDFEC42322B5DE65004646E0 /* clipper.xcdatamodeld */; };
 		FDFEC42722B5DE67004646E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFEC42622B5DE67004646E0 /* Assets.xcassets */; };
 		FDFEC42A22B5DE67004646E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFEC42822B5DE67004646E0 /* Main.storyboard */; };
@@ -52,6 +52,7 @@
 		B9359861DD59743FC2B2165F /* Pods_clipperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5EA6B26D7AE8784A9A9691 /* Pods-clipperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperUITests.release.xcconfig"; path = "Target Support Files/Pods-clipperUITests/Pods-clipperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EAC6DBC39549524CA5DE170E /* Pods-clipperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperTests.debug.xcconfig"; path = "Target Support Files/Pods-clipperTests/Pods-clipperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopiedTableCellView.swift; sourceTree = "<group>"; };
 		FD95456B22B5E9620058067F /* datastoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datastoreTest.swift; sourceTree = "<group>"; };
 		FD95457022B5EA2A0058067F /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
 		FD95457222B5EEE50058067F /* EventListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListner.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		FDB895B322B5E16800E8662A /* clipper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clipper-Bridging-Header.h"; sourceTree = "<group>"; };
 		FDFEC41C22B5DE65004646E0 /* clipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDFEC42122B5DE65004646E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDFEC42422B5DE65004646E0 /* clipper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clipper.xcdatamodel; sourceTree = "<group>"; };
 		FDFEC42622B5DE67004646E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDFEC42922B5DE67004646E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -170,7 +170,6 @@
 				FD95457822B669D10058067F /* protocols */,
 				FD95456F22B5EA180058067F /* datastore */,
 				FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */,
-				FDFEC42122B5DE65004646E0 /* ViewController.swift */,
 				FDAB4C2B22B8F7C40073F448 /* MainViewController.swift */,
 				FDFEC42622B5DE67004646E0 /* Assets.xcassets */,
 				FDFEC42822B5DE67004646E0 /* Main.storyboard */,
@@ -179,6 +178,7 @@
 				FDFEC42322B5DE65004646E0 /* clipper.xcdatamodeld */,
 				FDB895B322B5E16800E8662A /* clipper-Bridging-Header.h */,
 				FD95457222B5EEE50058067F /* EventListner.swift */,
+				FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */,
 			);
 			path = clipper;
 			sourceTree = "<group>";
@@ -424,7 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAB4C2C22B8F7C40073F448 /* MainViewController.swift in Sources */,
-				FDFEC42222B5DE65004646E0 /* ViewController.swift in Sources */,
+				FD1C217822BB8D1F00BFB381 /* CopiedTableCellView.swift in Sources */,
 				FD95457A22B669F20058067F /* PasteboardDataSourceProtocol.swift in Sources */,
 				FD95457322B5EEE50058067F /* EventListner.swift in Sources */,
 				FD95457122B5EA2A0058067F /* Datastore.swift in Sources */,

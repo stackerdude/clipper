@@ -11,10 +11,11 @@ import Foundation
 
 class Datastore: NSObject{
     static let shared = Datastore()
-    var data: [String] = []
+    var data: [CopiedDate] = []
     
     func add(value:String){
-        data.insert(value, at: 0)
+        let newData = CopiedDate(data: value, timestamp: NSDate().timeIntervalSince1970)
+        data.insert(newData, at: 0)
         NotificationCenter.default.post(name: .newDataAdded, object: nil)
 
     }
@@ -27,5 +28,8 @@ extension Notification.Name {
     static let newDataAdded = Notification.Name("newDataAdded")
 }
 
-
+struct CopiedDate{
+    var data:String
+    var timestamp:TimeInterval
+}
 
