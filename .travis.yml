@@ -3,6 +3,7 @@ osx_image: xcode10.2
 
 script:
   ls &&
+  pod install &&
   set -o pipefail &&
   travis_retry
   xcodebuild build test
