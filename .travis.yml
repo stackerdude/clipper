@@ -6,7 +6,7 @@ script:
   travis_retry
   xcodebuild build test
   -workspace clipper.xcworkspace
--scheme clipper
+  -scheme clipper
   CODE_SIGN_IDENTITY=""
   CODE_SIGNING_REQUIRED=NO
   | xcpretty
