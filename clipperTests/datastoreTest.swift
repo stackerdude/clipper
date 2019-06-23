@@ -28,8 +28,9 @@ class datastoreTest: XCTestCase {
     
     func testDatastoreAcceptsNewData(){
         let ds = Datastore.shared
+        let prevCount = ds.numOfItems()
         ds.add(value:"test copy value")
-        XCTAssertEqual(ds.numOfItems(), 1)
+        XCTAssertEqual(ds.numOfItems(), prevCount + 1)
     }
 
 }
