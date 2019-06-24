@@ -5,6 +5,7 @@ script:
   ls &&
   pod install &&
   ./scripts/configure-keychain.sh &&
+  security find-identity -v -p codesigning &&
   set -o pipefail &&
   travis_retry
   xcodebuild build test
