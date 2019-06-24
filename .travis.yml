@@ -10,6 +10,6 @@ script:
   xcodebuild build test
   -workspace clipper.xcworkspace
   -scheme clipper
-  CODE_SIGN_IDENTITY=""
+  CODE_SIGN_IDENTITY="2D57013D46DDCCA9F7DA9ACC2491E6ABD7FE1668"
   CODE_SIGNING_REQUIRED=NO
   | xcpretty
