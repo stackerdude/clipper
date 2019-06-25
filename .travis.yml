@@ -3,8 +3,7 @@ osx_image: xcode10.2
 
 script:
   ls &&
-  pod deintegrate &&
-  rm -rf clipper.xcworkspace &&
+  bundle install &&
   pod install &&
   ./scripts/configure-keychain.sh &&
   security find-identity -v -p codesigning &&
