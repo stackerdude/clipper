@@ -4,5 +4,5 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'cocoapods', '~> 0.39.0'
+gem 'cocoapods', '~> 1.7', '>= 1.7.2'
 gem 'xcpretty', '~> 0.2.8'
