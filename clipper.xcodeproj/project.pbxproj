@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CBEAEEFB5411B0C2A7238EA /* Pods_clipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55E6E1B19912485CF70112D /* Pods_clipper.framework */; };
 		FD1C217822BB8D1F00BFB381 /* CopiedTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */; };
+		FD722A1122C38E02000AB856 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD722A1022C38E02000AB856 /* main.swift */; };
 		FD95456C22B5E9620058067F /* datastoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95456B22B5E9620058067F /* datastoreTest.swift */; };
 		FD95457122B5EA2A0058067F /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457022B5EA2A0058067F /* Datastore.swift */; };
 		FD95457322B5EEE50058067F /* EventListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457222B5EEE50058067F /* EventListner.swift */; };
@@ -45,6 +46,7 @@
 		A61F34CCDFCBCBBFFB2FD1AE /* Pods-clipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipper.release.xcconfig"; path = "Target Support Files/Pods-clipper/Pods-clipper.release.xcconfig"; sourceTree = "<group>"; };
 		B55E6E1B19912485CF70112D /* Pods_clipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopiedTableCellView.swift; sourceTree = "<group>"; };
+		FD722A1022C38E02000AB856 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FD95456B22B5E9620058067F /* datastoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datastoreTest.swift; sourceTree = "<group>"; };
 		FD95457022B5EA2A0058067F /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
 		FD95457222B5EEE50058067F /* EventListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListner.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		FDFEC41E22B5DE65004646E0 /* clipper */ = {
 			isa = PBXGroup;
 			children = (
+				FD722A1022C38E02000AB856 /* main.swift */,
 				FD95457822B669D10058067F /* protocols */,
 				FD95456F22B5EA180058067F /* datastore */,
 				FDFEC41F22B5DE65004646E0 /* AppDelegate.swift */,
@@ -363,6 +366,7 @@
 			files = (
 				FDAB4C2C22B8F7C40073F448 /* MainViewController.swift in Sources */,
 				FD1C217822BB8D1F00BFB381 /* CopiedTableCellView.swift in Sources */,
+				FD722A1122C38E02000AB856 /* main.swift in Sources */,
 				FD95457A22B669F20058067F /* PasteboardDataSourceProtocol.swift in Sources */,
 				FD95457322B5EEE50058067F /* EventListner.swift in Sources */,
 				FD95457122B5EA2A0058067F /* Datastore.swift in Sources */,

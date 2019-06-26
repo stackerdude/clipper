@@ -8,7 +8,6 @@
 
 import Cocoa
 
-@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
     var datastore: Datastore!
     var pasteboard: NSPasteboard!
@@ -17,6 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     var viewController:MainViewContoller!
     var window:NSWindow!
+    var windowController:NSWindowController!
 
 
 
@@ -37,7 +37,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.viewController._datastore = self.datastore
         window = NSWindow.init(contentViewController: self.viewController)
         window.title = "clipper"
-        window.makeKeyAndOrderFront(nil)
+        window.makeKeyAndOrderFront(self)
+        windowController = NSWindowController.init(window: window)
+//        windowController.showWindow(self)
+//        NSApp.activate(ignoringOtherApps: true)
 
     }
     
