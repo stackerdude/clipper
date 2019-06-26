@@ -13,6 +13,7 @@ class Datastore: NSObject{
     static let shared = Datastore()
     var data: [CopiedDate] = []
     
+    
     class func uniqueDatastore() -> Datastore{
         return Datastore()
     }

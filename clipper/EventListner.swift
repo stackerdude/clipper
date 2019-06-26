@@ -17,12 +17,14 @@ class EventListner: NSObject {
     var lastChangeCount: Int = 0
     let _datastore: Datastore
     
-    init(datastore:Datastore, pasteboard:NSPasteboard = NSPasteboard.general) {
+    init(datastore:Datastore, pasteboard:NSPasteboard) {
         self._datastore = datastore
         self._pasteboard  = pasteboard
         super.init()
+        self.lastChangeCount = self._pasteboard.pasteboardItems?.count ??  0
         self.setPasteBoardTimer()
         self.setGlobalHotkey()
+        
 
     }
     
@@ -36,7 +38,7 @@ class EventListner: NSObject {
     
     func setPasteBoardTimer(){
         timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { (t) in
-            if self._pasteboard.changeCount != self.lastChangeCount {
+            if self._pasteboard.pasteboardItems?.count != self.lastChangeCount {
                 self.lastChangeCount = self._pasteboard.changeCount
                 self.pasteboardDidChange()
                 
