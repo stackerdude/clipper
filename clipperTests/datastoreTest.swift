@@ -33,4 +33,28 @@ class datastoreTest: XCTestCase {
         XCTAssertEqual(ds.numOfItems(), prevCount + 1)
     }
 
+    func testDatastoreCanDedupeNewData(){
+        let ds = Datastore.uniqueDatastore()
+        let data = "dupeData"
+        ds.add(value: data)
+        ds.add(value: data)
+        XCTAssertEqual(ds.numOfItems(), 1)
+
+    }
+
+    func testDatastoreCanDedupeComplexNewData(){
+        let ds = Datastore.uniqueDatastore()
+        let data = "dupeData"
+        let otherData = "all the small things"
+        ds.add(value: data)
+        ds.add(value: otherData)
+        ds.add(value: data)
+        XCTAssertEqual(ds.numOfItems(), 2)
+        XCTAssertEqual(ds.data[0].data, data)
+        XCTAssertEqual(ds.data[1].data, otherData)
+
+
+
+    }
+
 }

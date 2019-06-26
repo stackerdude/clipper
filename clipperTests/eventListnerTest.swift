@@ -27,21 +27,23 @@ class eventListnerTest: XCTestCase {
         pasteboard.releaseGlobally()
     }
 
-    func testHandlesNewPasteEvent() {
-        let datastore = Datastore.uniqueDatastore()
-        datastore.clearStore()
-        let pasteboard = NSPasteboard.withUniqueName()
-        let a = EventListner(datastore: datastore, pasteboard: pasteboard)
-        pasteboard.setData("some copy data".data(using: .utf8), forType:.string)
-
-        let predicate = NSPredicate(block: { any, _ in
-            guard let ds = any as? Datastore else { return false }
-            print(ds.numOfItems())
-            return ds.numOfItems() >= 1
-        })
-        expectation(for: predicate, evaluatedWith: datastore, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        pasteboard.releaseGlobally()
-    }
+//    func testHandlesNewPasteEvent() {
+//        let datastore = Datastore.uniqueDatastore()
+//        datastore.clearStore()
+//        let pasteboard = NSPasteboard.withUniqueName()
+//        let a = EventListner(datastore: datastore, pasteboard: pasteboard)
+//        pasteboard.setData("some copy data".data(using: .utf8), forType:.string)
+//        pasteboard.setData("some more copy data".data(using: .utf8), forType:.string)
+//
+//
+//        let predicate = NSPredicate(block: { any, _ in
+//            guard let ds = any as? Datastore else { return false }
+//            print(ds.numOfItems())
+//            return ds.numOfItems() >= 1
+//        })
+//        expectation(for: predicate, evaluatedWith: datastore, handler: nil)
+//        waitForExpectations(timeout: 5, handler: nil)
+//        pasteboard.releaseGlobally()
+//    }
     
 }

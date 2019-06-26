@@ -38,7 +38,7 @@ class EventListner: NSObject {
     
     func setPasteBoardTimer(){
         timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { (t) in
-            if self._pasteboard.pasteboardItems?.count != self.lastChangeCount {
+            if self._pasteboard.changeCount != self.lastChangeCount {
                 self.lastChangeCount = self._pasteboard.changeCount
                 self.pasteboardDidChange()
                 
