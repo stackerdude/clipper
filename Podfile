@@ -6,7 +6,7 @@ target 'clipper' do
   use_frameworks!
   pod 'MASShortcut', :inhibit_warnings => true
   pod 'DateToolsSwift', :inhibit_warnings => true
-  pod 'SwiftLint'
+#  pod 'SwiftLint'
 
 
 
