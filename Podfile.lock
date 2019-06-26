@@ -1,20 +1,24 @@
 PODS:
   - DateToolsSwift (4.0.0)
   - MASShortcut (2.3.6)
+  - SwiftLint (0.33.0)
 
 DEPENDENCIES:
   - DateToolsSwift
   - MASShortcut
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DateToolsSwift
     - MASShortcut
+    - SwiftLint
 
 SPEC CHECKSUMS:
   DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
   MASShortcut: 9c215e8a8a78f3d01ce56da48e2730ab66b538fa
+  SwiftLint: fed9c66336e41fc74dc48a73678380718f0c8b0e
 
-PODFILE CHECKSUM: 910e92f716eb4a890256922c16f19bae6b9954c4
+PODFILE CHECKSUM: c3a3e499cf03d055825324b6401a82e138ad5ce6
 
 COCOAPODS: 1.7.2

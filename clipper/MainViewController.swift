@@ -50,10 +50,13 @@ class MainViewContoller: NSViewController{
             pasteboard.clearContents()
             pasteboard.setData(selected_data, forType: .string)
         }
+        if (event.keyCode == 53){
+            self.view.window?.close()
+        }
         
         
     }
-    
+
     
 }
 

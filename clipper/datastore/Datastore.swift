@@ -13,15 +13,22 @@ class Datastore: NSObject{
     static let shared = Datastore()
     var data: [CopiedDate] = []
     
+    class func uniqueDatastore() -> Datastore{
+        return Datastore()
+    }
+    
     func add(value:String){
         let newData = CopiedDate(data: value, timestamp: NSDate().timeIntervalSince1970)
-        data.insert(newData, at: 0)
+        self.data.insert(newData, at: 0)
         NotificationCenter.default.post(name: .newDataAdded, object: nil)
 
     }
     
     func numOfItems() -> Int{
-        return data.count
+        return self.data.count
+    }
+    func clearStore(){
+        self.data.removeAll()
     }
 }
 extension Notification.Name {

@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2CBEAEEFB5411B0C2A7238EA /* Pods_clipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55E6E1B19912485CF70112D /* Pods_clipper.framework */; };
-		360135D8B890524EEEA3C79D /* Pods_clipperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3BDE302FDFCEB1B2F0ED7A /* Pods_clipperTests.framework */; };
-		8C2ACC5503A824E0296FCB52 /* Pods_clipperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4383B81A334D294C0CB1C078 /* Pods_clipperUITests.framework */; };
 		FD1C217822BB8D1F00BFB381 /* CopiedTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */; };
 		FD95456C22B5E9620058067F /* datastoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95456B22B5E9620058067F /* datastoreTest.swift */; };
 		FD95457122B5EA2A0058067F /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95457022B5EA2A0058067F /* Datastore.swift */; };
@@ -43,15 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4383B81A334D294C0CB1C078 /* Pods_clipperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76250B16A9E21B2E5B2D438C /* Pods-clipperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperTests.debug.xcconfig"; path = "Target Support Files/Pods-clipperTests/Pods-clipperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DDD0745098950FCEF6BDF4C /* Pods-clipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipper.debug.xcconfig"; path = "Target Support Files/Pods-clipper/Pods-clipper.debug.xcconfig"; sourceTree = "<group>"; };
 		A61F34CCDFCBCBBFFB2FD1AE /* Pods-clipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipper.release.xcconfig"; path = "Target Support Files/Pods-clipper/Pods-clipper.release.xcconfig"; sourceTree = "<group>"; };
-		AE3BDE302FDFCEB1B2F0ED7A /* Pods_clipperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0F65AD7FA8506531EAC31A6 /* Pods-clipperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperUITests.release.xcconfig"; path = "Target Support Files/Pods-clipperUITests/Pods-clipperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B55E6E1B19912485CF70112D /* Pods_clipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5FB1BDE82F3B0D7C5D4DA6D /* Pods-clipperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperUITests.debug.xcconfig"; path = "Target Support Files/Pods-clipperUITests/Pods-clipperUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		FCDED15B5732C044EEA60582 /* Pods-clipperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clipperTests.release.xcconfig"; path = "Target Support Files/Pods-clipperTests/Pods-clipperTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD1C217722BB8D1F00BFB381 /* CopiedTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopiedTableCellView.swift; sourceTree = "<group>"; };
 		FD95456B22B5E9620058067F /* datastoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datastoreTest.swift; sourceTree = "<group>"; };
 		FD95457022B5EA2A0058067F /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
@@ -88,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360135D8B890524EEEA3C79D /* Pods_clipperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2ACC5503A824E0296FCB52 /* Pods_clipperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				B55E6E1B19912485CF70112D /* Pods_clipper.framework */,
-				AE3BDE302FDFCEB1B2F0ED7A /* Pods_clipperTests.framework */,
-				4383B81A334D294C0CB1C078 /* Pods_clipperUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +106,6 @@
 			children = (
 				9DDD0745098950FCEF6BDF4C /* Pods-clipper.debug.xcconfig */,
 				A61F34CCDFCBCBBFFB2FD1AE /* Pods-clipper.release.xcconfig */,
-				76250B16A9E21B2E5B2D438C /* Pods-clipperTests.debug.xcconfig */,
-				FCDED15B5732C044EEA60582 /* Pods-clipperTests.release.xcconfig */,
-				E5FB1BDE82F3B0D7C5D4DA6D /* Pods-clipperUITests.debug.xcconfig */,
-				B0F65AD7FA8506531EAC31A6 /* Pods-clipperUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -229,7 +213,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDFEC44822B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipperTests" */;
 			buildPhases = (
-				8A363957B1A87E7027EE888F /* [CP] Check Pods Manifest.lock */,
 				FDFEC42D22B5DE67004646E0 /* Sources */,
 				FDFEC42E22B5DE67004646E0 /* Frameworks */,
 				FDFEC42F22B5DE67004646E0 /* Resources */,
@@ -248,7 +231,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDFEC44B22B5DE67004646E0 /* Build configuration list for PBXNativeTarget "clipperUITests" */;
 			buildPhases = (
-				78C25B30B3ABBEC7ADA8491D /* [CP] Check Pods Manifest.lock */,
 				FDFEC43822B5DE67004646E0 /* Sources */,
 				FDFEC43922B5DE67004646E0 /* Frameworks */,
 				FDFEC43A22B5DE67004646E0 /* Resources */,
@@ -333,50 +315,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78C25B30B3ABBEC7ADA8491D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clipperUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A363957B1A87E7027EE888F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clipperTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AB683A5B9B2BC34393FA4A1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,7 +579,6 @@
 		};
 		FDFEC44922B5DE67004646E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76250B16A9E21B2E5B2D438C /* Pods-clipperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,7 +602,6 @@
 		};
 		FDFEC44A22B5DE67004646E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCDED15B5732C044EEA60582 /* Pods-clipperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -689,7 +625,6 @@
 		};
 		FDFEC44C22B5DE67004646E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5FB1BDE82F3B0D7C5D4DA6D /* Pods-clipperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -709,7 +644,6 @@
 		};
 		FDFEC44D22B5DE67004646E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0F65AD7FA8506531EAC31A6 /* Pods-clipperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

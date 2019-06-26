@@ -28,17 +28,16 @@ class eventListnerTest: XCTestCase {
 
 //    func testHandlesNewPasteEvent() {
 //        let datastore = Datastore.shared
-//        datastore.data = []
+//        datastore.clearStore()
 //        let pasteboard = NSPasteboard.withUniqueName()
-//        let listner = EventListner(datastore: datastore, pasteboard: pasteboard)
+//        let _ = EventListner(datastore: datastore, pasteboard: pasteboard)
 //        pasteboard.setData("some copy data".data(using: .utf8), forType:.string)
 //        let predicate = NSPredicate(block: { any, _ in
-//
 //            guard let ds = any as? Datastore else { return false }
 //            return ds.numOfItems() == 1
 //        })
 //        expectation(for: predicate, evaluatedWith: datastore, handler: nil)
-//        waitForExpectations(timeout: 1, handler: nil)
+//        waitForExpectations(timeout: 5, handler: nil)
 //    }
     
 }
