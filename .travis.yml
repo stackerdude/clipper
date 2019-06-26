@@ -4,6 +4,7 @@ osx_image: xcode10.2
 script:
   ls &&
   bundle install &&
+  gem install cocoapods &&
   pod install &&
   ./scripts/configure-keychain.sh &&
   security find-identity -v -p codesigning &&
