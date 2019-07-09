@@ -49,7 +49,7 @@ class MainViewContoller: NSViewController{
             let pasteboard: NSPasteboard = .general
             pasteboard.clearContents()
             pasteboard.setData(selected_data, forType: .string)
-            hideApplication()            NSApp.hide(nil)
+            hideApplication()
 
         }
         if (event.keyCode == 53){
