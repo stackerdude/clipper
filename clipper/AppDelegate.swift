@@ -39,10 +39,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.title = "clipper"
         window.makeKeyAndOrderFront(self)
         windowController = NSWindowController.init(window: window)
-//        windowController.showWindow(self)
-//        NSApp.activate(ignoringOtherApps: true)
 
     }
+    
+
+
     
     func constructMenu() {
         let menu = NSMenu()
